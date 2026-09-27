@@ -1,0 +1,4 @@
+dotenv
+google-gemini
+streamlit
+time

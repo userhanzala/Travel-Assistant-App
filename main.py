@@ -1,6 +1,4 @@
 import streamlit as st
-from colorama import init, Fore, Back, Style
-init(autoreset=True)
 import time
 from google import genai
 from dotenv import load_dotenv
@@ -8,7 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = genai.Client()
-
 
 
 def inject_travel_background() -> None:
@@ -88,7 +85,7 @@ def inject_travel_background() -> None:
 
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="AI Travel Assistant — Background Preview", layout="wide")
+    st.set_page_config(page_title="Hanzala's Travel Assistant", layout="wide")
     inject_travel_background()
 
 #st.title("Travel Assistant")
