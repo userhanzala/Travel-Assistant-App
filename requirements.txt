@@ -1,4 +1,4 @@
 dotenv
-google-gemini
+google-genai
 streamlit
 time
