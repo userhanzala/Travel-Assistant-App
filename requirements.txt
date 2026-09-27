@@ -1,4 +1,3 @@
-dotenv
-google-genai
 streamlit
-time
+google-genai
+python-dotenv
